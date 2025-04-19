@@ -14,7 +14,7 @@ namespace Library_Management_System.Services
 
         public Task CreateAsync(Category category)
         {
-            return repo.AddAsync(category);
+            return repo.CreateAsync(category);
         }
 
         public Task DeleteAsync(int id)

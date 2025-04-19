@@ -12,7 +12,7 @@ namespace Library_Management_System.Repositories
         {
             context = _context;
         }
-        public async Task AddAsync(Category category)
+        public async Task CreateAsync(Category category)
         {
             await context.Categories.AddAsync(category);
         }

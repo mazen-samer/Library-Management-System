@@ -1,30 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\ITI\\MVC\\Christine MVC \u0026 Web API\\MVC\\Library Management System\\",
+  "WorkspaceRootPath": "E:\\ITI\\MVC\\Library Management System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3FDBD6DC-6E4B-43D1-89AC-6E537BC8EF5C}|Library Management System\\Library Management System.csproj|e:\\iti\\mvc\\christine mvc \u0026 web api\\mvc\\library management system\\library management system\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3FDBD6DC-6E4B-43D1-89AC-6E537BC8EF5C}|Library Management System\\Library Management System.csproj|e:\\iti\\mvc\\library management system\\library management system\\views\\author\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3FDBD6DC-6E4B-43D1-89AC-6E537BC8EF5C}|Library Management System\\Library Management System.csproj|solutionrelative:library management system\\views\\author\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FDBD6DC-6E4B-43D1-89AC-6E537BC8EF5C}|Library Management System\\Library Management System.csproj|e:\\iti\\mvc\\library management system\\library management system\\views\\author\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3FDBD6DC-6E4B-43D1-89AC-6E537BC8EF5C}|Library Management System\\Library Management System.csproj|solutionrelative:library management system\\views\\author\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FDBD6DC-6E4B-43D1-89AC-6E537BC8EF5C}|Library Management System\\Library Management System.csproj|e:\\iti\\mvc\\library management system\\library management system\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FDBD6DC-6E4B-43D1-89AC-6E537BC8EF5C}|Library Management System\\Library Management System.csproj|solutionrelative:library management system\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FDBD6DC-6E4B-43D1-89AC-6E537BC8EF5C}|Library Management System\\Library Management System.csproj|e:\\iti\\mvc\\library management system\\library management system\\repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FDBD6DC-6E4B-43D1-89AC-6E537BC8EF5C}|Library Management System\\Library Management System.csproj|solutionrelative:library management system\\repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FDBD6DC-6E4B-43D1-89AC-6E537BC8EF5C}|Library Management System\\Library Management System.csproj|e:\\iti\\mvc\\library management system\\library management system\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FDBD6DC-6E4B-43D1-89AC-6E537BC8EF5C}|Library Management System\\Library Management System.csproj|solutionrelative:library management system\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FDBD6DC-6E4B-43D1-89AC-6E537BC8EF5C}|Library Management System\\Library Management System.csproj|e:\\iti\\mvc\\christine mvc \u0026 web api\\mvc\\library management system\\library management system\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FDBD6DC-6E4B-43D1-89AC-6E537BC8EF5C}|Library Management System\\Library Management System.csproj|solutionrelative:library management system\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FDBD6DC-6E4B-43D1-89AC-6E537BC8EF5C}|Library Management System\\Library Management System.csproj|e:\\iti\\mvc\\library management system\\library management system\\views\\author\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3FDBD6DC-6E4B-43D1-89AC-6E537BC8EF5C}|Library Management System\\Library Management System.csproj|solutionrelative:library management system\\views\\author\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FDBD6DC-6E4B-43D1-89AC-6E537BC8EF5C}|Library Management System\\Library Management System.csproj|e:\\iti\\mvc\\christine mvc \u0026 web api\\mvc\\library management system\\library management system\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3FDBD6DC-6E4B-43D1-89AC-6E537BC8EF5C}|Library Management System\\Library Management System.csproj|e:\\iti\\mvc\\library management system\\library management system\\services\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FDBD6DC-6E4B-43D1-89AC-6E537BC8EF5C}|Library Management System\\Library Management System.csproj|solutionrelative:library management system\\services\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FDBD6DC-6E4B-43D1-89AC-6E537BC8EF5C}|Library Management System\\Library Management System.csproj|e:\\iti\\mvc\\library management system\\library management system\\services\\interfaces\\iauthorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FDBD6DC-6E4B-43D1-89AC-6E537BC8EF5C}|Library Management System\\Library Management System.csproj|solutionrelative:library management system\\services\\interfaces\\iauthorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FDBD6DC-6E4B-43D1-89AC-6E537BC8EF5C}|Library Management System\\Library Management System.csproj|e:\\iti\\mvc\\library management system\\library management system\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FDBD6DC-6E4B-43D1-89AC-6E537BC8EF5C}|Library Management System\\Library Management System.csproj|solutionrelative:library management system\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FDBD6DC-6E4B-43D1-89AC-6E537BC8EF5C}|Library Management System\\Library Management System.csproj|e:\\iti\\mvc\\christine mvc \u0026 web api\\mvc\\library management system\\library management system\\services\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3FDBD6DC-6E4B-43D1-89AC-6E537BC8EF5C}|Library Management System\\Library Management System.csproj|e:\\iti\\mvc\\library management system\\library management system\\services\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FDBD6DC-6E4B-43D1-89AC-6E537BC8EF5C}|Library Management System\\Library Management System.csproj|solutionrelative:library management system\\services\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FDBD6DC-6E4B-43D1-89AC-6E537BC8EF5C}|Library Management System\\Library Management System.csproj|e:\\iti\\mvc\\christine mvc \u0026 web api\\mvc\\library management system\\library management system\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3FDBD6DC-6E4B-43D1-89AC-6E537BC8EF5C}|Library Management System\\Library Management System.csproj|solutionrelative:library management system\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FDBD6DC-6E4B-43D1-89AC-6E537BC8EF5C}|Library Management System\\Library Management System.csproj|e:\\iti\\mvc\\christine mvc \u0026 web api\\mvc\\library management system\\library management system\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FDBD6DC-6E4B-43D1-89AC-6E537BC8EF5C}|Library Management System\\Library Management System.csproj|solutionrelative:library management system\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,80 +70,132 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Category.cs",
-              "DocumentMoniker": "E:\\ITI\\MVC\\Christine MVC \u0026 Web API\\MVC\\Library Management System\\Library Management System\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "Library Management System\\Models\\Category.cs",
-              "ToolTip": "E:\\ITI\\MVC\\Christine MVC \u0026 Web API\\MVC\\Library Management System\\Library Management System\\Models\\Category.cs",
-              "RelativeToolTip": "Library Management System\\Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T19:22:06.604Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ICategoryService.cs",
-              "DocumentMoniker": "E:\\ITI\\MVC\\Christine MVC \u0026 Web API\\MVC\\Library Management System\\Library Management System\\Services\\Interfaces\\ICategoryService.cs",
-              "RelativeDocumentMoniker": "Library Management System\\Services\\Interfaces\\ICategoryService.cs",
-              "ToolTip": "E:\\ITI\\MVC\\Christine MVC \u0026 Web API\\MVC\\Library Management System\\Library Management System\\Services\\Interfaces\\ICategoryService.cs",
-              "RelativeToolTip": "Library Management System\\Services\\Interfaces\\ICategoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T19:19:21.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\ITI\\MVC\\Christine MVC \u0026 Web API\\MVC\\Library Management System\\Library Management System\\Views\\Category\\Create.cshtml",
-              "RelativeDocumentMoniker": "Library Management System\\Views\\Category\\Create.cshtml",
-              "ToolTip": "E:\\ITI\\MVC\\Christine MVC \u0026 Web API\\MVC\\Library Management System\\Library Management System\\Views\\Category\\Create.cshtml",
-              "RelativeToolTip": "Library Management System\\Views\\Category\\Create.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAGAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\Views\\Author\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Library Management System\\Views\\Author\\Edit.cshtml",
+              "ToolTip": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\Views\\Author\\Edit.cshtml",
+              "RelativeToolTip": "Library Management System\\Views\\Author\\Edit.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-19T19:16:43.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "E:\\ITI\\MVC\\Christine MVC \u0026 Web API\\MVC\\Library Management System\\Library Management System\\Services\\CategoryService.cs",
-              "RelativeDocumentMoniker": "Library Management System\\Services\\CategoryService.cs",
-              "ToolTip": "E:\\ITI\\MVC\\Christine MVC \u0026 Web API\\MVC\\Library Management System\\Library Management System\\Services\\CategoryService.cs",
-              "RelativeToolTip": "Library Management System\\Services\\CategoryService.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAkwCkAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T19:02:55.359Z",
+              "WhenOpened": "2025-04-19T23:43:55.619Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "E:\\ITI\\MVC\\Christine MVC \u0026 Web API\\MVC\\Library Management System\\Library Management System\\Repositories\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "Library Management System\\Repositories\\CategoryRepository.cs",
-              "ToolTip": "E:\\ITI\\MVC\\Christine MVC \u0026 Web API\\MVC\\Library Management System\\Library Management System\\Repositories\\CategoryRepository.cs",
-              "RelativeToolTip": "Library Management System\\Repositories\\CategoryRepository.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwA4AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T18:46:07.843Z",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\Views\\Author\\Details.cshtml",
+              "RelativeDocumentMoniker": "Library Management System\\Views\\Author\\Details.cshtml",
+              "ToolTip": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\Views\\Author\\Details.cshtml",
+              "RelativeToolTip": "Library Management System\\Views\\Author\\Details.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T23:37:16.249Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "E:\\ITI\\MVC\\Christine MVC \u0026 Web API\\MVC\\Library Management System\\Library Management System\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Library Management System\\Controllers\\CategoryController.cs",
-              "ToolTip": "E:\\ITI\\MVC\\Christine MVC \u0026 Web API\\MVC\\Library Management System\\Library Management System\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "Library Management System\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAADwvxgAAAAlAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "AuthorRepository.cs",
+              "DocumentMoniker": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\Repositories\\AuthorRepository.cs",
+              "RelativeDocumentMoniker": "Library Management System\\Repositories\\AuthorRepository.cs",
+              "ToolTip": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\Repositories\\AuthorRepository.cs",
+              "RelativeToolTip": "Library Management System\\Repositories\\AuthorRepository.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T18:32:06.2Z",
+              "WhenOpened": "2025-04-19T23:36:40.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\Views\\Author\\Create.cshtml",
+              "RelativeDocumentMoniker": "Library Management System\\Views\\Author\\Create.cshtml",
+              "ToolTip": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\Views\\Author\\Create.cshtml",
+              "RelativeToolTip": "Library Management System\\Views\\Author\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T23:32:56.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Library Management System\\Controllers\\CategoryController.cs",
+              "ToolTip": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Library Management System\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwCUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T23:32:28.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthorController.cs",
+              "DocumentMoniker": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\Controllers\\AuthorController.cs",
+              "RelativeDocumentMoniker": "Library Management System\\Controllers\\AuthorController.cs",
+              "ToolTip": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\Controllers\\AuthorController.cs",
+              "RelativeToolTip": "Library Management System\\Controllers\\AuthorController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAADwv0oAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T23:28:24.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Library Management System\\Services\\CategoryService.cs",
+              "ToolTip": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\Services\\CategoryService.cs",
+              "RelativeToolTip": "Library Management System\\Services\\CategoryService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T23:17:17.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IAuthorService.cs",
+              "DocumentMoniker": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\Services\\Interfaces\\IAuthorService.cs",
+              "RelativeDocumentMoniker": "Library Management System\\Services\\Interfaces\\IAuthorService.cs",
+              "ToolTip": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\Services\\Interfaces\\IAuthorService.cs",
+              "RelativeToolTip": "Library Management System\\Services\\Interfaces\\IAuthorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T23:16:48.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\Services\\Interfaces\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "Library Management System\\Services\\Interfaces\\ICategoryService.cs",
+              "ToolTip": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\Services\\Interfaces\\ICategoryService.cs",
+              "RelativeToolTip": "Library Management System\\Services\\Interfaces\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T23:14:58.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthorService.cs",
+              "DocumentMoniker": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\Services\\AuthorService.cs",
+              "RelativeDocumentMoniker": "Library Management System\\Services\\AuthorService.cs",
+              "ToolTip": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\Services\\AuthorService.cs",
+              "RelativeToolTip": "Library Management System\\Services\\AuthorService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T23:11:05.604Z",
               "EditorCaption": ""
             }
           ]

@@ -11,11 +11,18 @@ namespace Library_Management_System.Controllers
         {
             service = _service;
         }
+        public async Task<IActionResult> Index()
+        {
+            var categories = await service.GetAllAsync();
+            return View(categories);
+        }
+
         public IActionResult Create()
         {
             return View();
         }
 
+        //Post: category/create
         [HttpPost]
         public async Task<IActionResult> Create(Category c)
         {
@@ -27,5 +34,20 @@ namespace Library_Management_System.Controllers
             }
             return View(c);
         }
+
+        //Get: category/delete/{id}
+        [HttpGet]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var category = service.GetByIdAsync(id);
+            if (category == null)
+            {
+                return NotFound();
+            }
+            await service.DeleteAsync(id);
+            await service.Save();
+            return RedirectToAction("Index");
+        }
+
     }
 }
