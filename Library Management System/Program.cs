@@ -6,7 +6,6 @@ using Library_Management_System.Services;
 using Library_Management_System.Services.Interfaces;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-
 namespace Library_Management_System
 {
     public class Program
@@ -19,7 +18,7 @@ namespace Library_Management_System
             builder.Services.AddControllersWithViews();
 
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("con")));
+                options.UseSqlServer(builder.Configuration.GetConnectionString("con")).UseLazyLoadingProxies());
 
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
@@ -27,8 +26,11 @@ namespace Library_Management_System
 
             builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
             builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+            builder.Services.AddScoped<IBookRepository, BookRepository>();
             builder.Services.AddScoped<IAuthorService, AuthorService>();
             builder.Services.AddScoped<ICategoryService, CategoryService>();
+            builder.Services.AddScoped<IBookService, BookService>();
+
 
             var app = builder.Build();
 

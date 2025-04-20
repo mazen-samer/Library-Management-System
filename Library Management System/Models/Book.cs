@@ -1,4 +1,6 @@
-﻿namespace Library_Management_System.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Library_Management_System.Models
 {
     public class Book
     {
@@ -6,12 +8,15 @@
         public string Title { get; set; }
         public string Description { get; set; }
 
-        public string CoverImagePath { get; set; }
-        public int CategoryId { get; set; }
-        public virtual Category Category { get; set; }
+        public string? CoverImagePath { get; set; }
 
+        [Required]
+        public int CategoryId { get; set; }
+        public virtual Category? Category { get; set; }
+
+        [Required]
         public int AuthorId { get; set; }
-        public virtual Author Author { get; set; }
+        public virtual Author? Author { get; set; }
 
         public int TotalCopies { get; set; }
         public int AvailableCopies { get; set; }

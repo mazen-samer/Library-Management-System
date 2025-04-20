@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\images\\8224878d-b25e-403c-8cd4-b1cf88d9f8a3.png",
+      "PackagePath": "staticwebassets\\images\\8224878d-b25e-403c-8cd4-b1cf88d9f8a3.png"
+    },
+    {
       "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
