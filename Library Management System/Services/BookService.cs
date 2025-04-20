@@ -41,10 +41,27 @@ namespace Library_Management_System.Services
             await repo.AddAsync(book);
         }
 
-        public Task DeleteAsync(int id)
+        public async Task DeleteAsync(int id)
         {
-            return repo.DeleteAsync(id);
+            var existingBook = await repo.GetByIdAsync(id);
+            if (existingBook == null)
+                return;
+
+            if (!string.IsNullOrEmpty(existingBook.CoverImagePath))
+            {
+                var relativePath = existingBook.CoverImagePath.TrimStart('/'); // e.g., "images/xyz.png"
+                var oldPath = Path.Combine(_env.WebRootPath, relativePath);
+
+                if (File.Exists(oldPath))
+                {
+                    File.Delete(oldPath);
+                    Console.WriteLine("##################DELETED############");
+                }
+            }
+
+            await repo.DeleteAsync(id);
         }
+
 
         public Task<IEnumerable<Book>> GetAllAsync()
         {
@@ -79,10 +96,14 @@ namespace Library_Management_System.Services
                 // Delete old image if exists
                 if (!string.IsNullOrEmpty(existingBook.CoverImagePath))
                 {
-                    var oldPath = Path.Combine(_env.WebRootPath, "images", existingBook.CoverImagePath);
+                    var relativePath = existingBook.CoverImagePath?.TrimStart('/');
+
+                    var oldPath = Path.Combine(_env.WebRootPath, relativePath);
+
                     if (File.Exists(oldPath))
                     {
                         File.Delete(oldPath);
+                        Console.WriteLine("##################DELETED############");
                     }
                 }
 

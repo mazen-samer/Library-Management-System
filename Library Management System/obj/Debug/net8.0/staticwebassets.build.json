@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vWVz13MqJxdjN+0ddrp0/7UzEfzqoVkRNxuag7xV3BU=",
+  "Hash": "7THYC3cW4HqRT4XXGF8dL9UWbnC0zyXP5tTj0jWCYww=",
   "Source": "Library Management System",
   "BasePath": "_content/Library Management System",
   "Mode": "Default",
@@ -101,12 +101,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\images\\8224878d-b25e-403c-8cd4-b1cf88d9f8a3.png",
+      "Identity": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\images\\89cd312d-6b2f-4fc2-9b9b-c657d2a2f73b.png",
       "SourceId": "Library Management System",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\",
       "BasePath": "_content/Library Management System",
-      "RelativePath": "images/8224878d-b25e-403c-8cd4-b1cf88d9f8a3#[.{fingerprint}]?.png",
+      "RelativePath": "images/89cd312d-6b2f-4fc2-9b9b-c657d2a2f73b#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -115,11 +115,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "g23kjwvbeu",
-      "Integrity": "eJDAa5DgScLFrJ+zzR0b5RgtaPNOgd4OI5IwKpUQ4zI=",
+      "Fingerprint": "wdvx16s32n",
+      "Integrity": "JBaQLNrIQr4zrRI65WnyXxFvKRNhn4lvDkDEQ9dmdUM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\8224878d-b25e-403c-8cd4-b1cf88d9f8a3.png"
+      "OriginalItemSpec": "wwwroot\\images\\89cd312d-6b2f-4fc2-9b9b-c657d2a2f73b.png"
+    },
+    {
+      "Identity": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\images\\default.png",
+      "SourceId": "Library Management System",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\",
+      "BasePath": "_content/Library Management System",
+      "RelativePath": "images/default#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6r3g1j3n8v",
+      "Integrity": "AjTIL65ulxIOUwNr+XODqg4k0vcfYPSm4ulfVnuGozs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\default.png"
     },
     {
       "Identity": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\js\\site.js",
@@ -1506,8 +1527,8 @@
       ]
     },
     {
-      "Route": "images/8224878d-b25e-403c-8cd4-b1cf88d9f8a3.g23kjwvbeu.png",
-      "AssetFile": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\images\\8224878d-b25e-403c-8cd4-b1cf88d9f8a3.png",
+      "Route": "images/89cd312d-6b2f-4fc2-9b9b-c657d2a2f73b.png",
+      "AssetFile": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\images\\89cd312d-6b2f-4fc2-9b9b-c657d2a2f73b.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1516,7 +1537,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2487860"
+          "Value": "2340655"
         },
         {
           "Name": "Content-Type",
@@ -1524,56 +1545,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"eJDAa5DgScLFrJ+zzR0b5RgtaPNOgd4OI5IwKpUQ4zI=\""
+          "Value": "\"JBaQLNrIQr4zrRI65WnyXxFvKRNhn4lvDkDEQ9dmdUM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Apr 2025 17:28:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "g23kjwvbeu"
-        },
-        {
-          "Name": "label",
-          "Value": "images/8224878d-b25e-403c-8cd4-b1cf88d9f8a3.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-eJDAa5DgScLFrJ+zzR0b5RgtaPNOgd4OI5IwKpUQ4zI="
-        }
-      ]
-    },
-    {
-      "Route": "images/8224878d-b25e-403c-8cd4-b1cf88d9f8a3.png",
-      "AssetFile": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\images\\8224878d-b25e-403c-8cd4-b1cf88d9f8a3.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2487860"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"eJDAa5DgScLFrJ+zzR0b5RgtaPNOgd4OI5IwKpUQ4zI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 20 Apr 2025 17:28:31 GMT"
+          "Value": "Sun, 20 Apr 2025 17:56:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1583,7 +1559,134 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-eJDAa5DgScLFrJ+zzR0b5RgtaPNOgd4OI5IwKpUQ4zI="
+          "Value": "sha256-JBaQLNrIQr4zrRI65WnyXxFvKRNhn4lvDkDEQ9dmdUM="
+        }
+      ]
+    },
+    {
+      "Route": "images/89cd312d-6b2f-4fc2-9b9b-c657d2a2f73b.wdvx16s32n.png",
+      "AssetFile": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\images\\89cd312d-6b2f-4fc2-9b9b-c657d2a2f73b.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2340655"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JBaQLNrIQr4zrRI65WnyXxFvKRNhn4lvDkDEQ9dmdUM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 17:56:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wdvx16s32n"
+        },
+        {
+          "Name": "label",
+          "Value": "images/89cd312d-6b2f-4fc2-9b9b-c657d2a2f73b.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JBaQLNrIQr4zrRI65WnyXxFvKRNhn4lvDkDEQ9dmdUM="
+        }
+      ]
+    },
+    {
+      "Route": "images/default.6r3g1j3n8v.png",
+      "AssetFile": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\images\\default.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "326916"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AjTIL65ulxIOUwNr+XODqg4k0vcfYPSm4ulfVnuGozs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 18:23:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6r3g1j3n8v"
+        },
+        {
+          "Name": "label",
+          "Value": "images/default.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AjTIL65ulxIOUwNr+XODqg4k0vcfYPSm4ulfVnuGozs="
+        }
+      ]
+    },
+    {
+      "Route": "images/default.png",
+      "AssetFile": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\images\\default.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "326916"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AjTIL65ulxIOUwNr+XODqg4k0vcfYPSm4ulfVnuGozs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 18:23:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AjTIL65ulxIOUwNr+XODqg4k0vcfYPSm4ulfVnuGozs="
         }
       ]
     },

@@ -60,14 +60,25 @@ namespace Library_Management_System.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Edit([FromRoute] int id, [FromForm] Book b, IFormFile newImage)
+        public async Task<IActionResult> Edit([FromRoute] int id, [FromForm] Book b, IFormFile CoverImage)
         {
             if (b.Id != id)
             {
                 return BadRequest();
             }
             Console.WriteLine("I came here");
-            await bookService.Update(b, newImage);
+            await bookService.Update(b, CoverImage);
+            await bookService.Save();
+            return RedirectToAction("Index");
+        }
+        public async Task<IActionResult> Delete(int id)
+        {
+            var book = await bookService.GetByIdAsync(id);
+            if (book == null)
+            {
+                return BadRequest();
+            }
+            await bookService.DeleteAsync(id);
             await bookService.Save();
             return RedirectToAction("Index");
         }

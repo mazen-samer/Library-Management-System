@@ -13,8 +13,12 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\images\\8224878d-b25e-403c-8cd4-b1cf88d9f8a3.png",
-      "PackagePath": "staticwebassets\\images\\8224878d-b25e-403c-8cd4-b1cf88d9f8a3.png"
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\images\\89cd312d-6b2f-4fc2-9b9b-c657d2a2f73b.png",
+      "PackagePath": "staticwebassets\\images\\89cd312d-6b2f-4fc2-9b9b-c657d2a2f73b.png"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\images\\default.png",
+      "PackagePath": "staticwebassets\\images\\default.png"
     },
     {
       "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\js\\site.js",
