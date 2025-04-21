@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7THYC3cW4HqRT4XXGF8dL9UWbnC0zyXP5tTj0jWCYww=",
+  "Hash": "sz2wxJsRPCawbPDLWE+rWt0soS1YSQakmHHwKQksuvw=",
   "Source": "Library Management System",
   "BasePath": "_content/Library Management System",
   "Mode": "Default",
@@ -99,27 +99,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\images\\89cd312d-6b2f-4fc2-9b9b-c657d2a2f73b.png",
-      "SourceId": "Library Management System",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\",
-      "BasePath": "_content/Library Management System",
-      "RelativePath": "images/89cd312d-6b2f-4fc2-9b9b-c657d2a2f73b#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "wdvx16s32n",
-      "Integrity": "JBaQLNrIQr4zrRI65WnyXxFvKRNhn4lvDkDEQ9dmdUM=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\89cd312d-6b2f-4fc2-9b9b-c657d2a2f73b.png"
     },
     {
       "Identity": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\images\\default.png",
@@ -1523,88 +1502,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
-        }
-      ]
-    },
-    {
-      "Route": "images/89cd312d-6b2f-4fc2-9b9b-c657d2a2f73b.png",
-      "AssetFile": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\images\\89cd312d-6b2f-4fc2-9b9b-c657d2a2f73b.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2340655"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"JBaQLNrIQr4zrRI65WnyXxFvKRNhn4lvDkDEQ9dmdUM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 20 Apr 2025 17:56:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-JBaQLNrIQr4zrRI65WnyXxFvKRNhn4lvDkDEQ9dmdUM="
-        }
-      ]
-    },
-    {
-      "Route": "images/89cd312d-6b2f-4fc2-9b9b-c657d2a2f73b.wdvx16s32n.png",
-      "AssetFile": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\images\\89cd312d-6b2f-4fc2-9b9b-c657d2a2f73b.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2340655"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"JBaQLNrIQr4zrRI65WnyXxFvKRNhn4lvDkDEQ9dmdUM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 20 Apr 2025 17:56:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "wdvx16s32n"
-        },
-        {
-          "Name": "label",
-          "Value": "images/89cd312d-6b2f-4fc2-9b9b-c657d2a2f73b.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-JBaQLNrIQr4zrRI65WnyXxFvKRNhn4lvDkDEQ9dmdUM="
         }
       ]
     },

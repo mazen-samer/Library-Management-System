@@ -4,7 +4,7 @@ namespace Library_Management_System.Services.Interfaces
 {
     public interface IBookService
     {
-        Task<IEnumerable<Book>> GetAllAsync();
+        Task<IEnumerable<Book>> GetAllAsync(string? authorName, string? categoryName);
         Task<Book?> GetByIdAsync(int id);
         Task CreateAsync(Book book, IFormFile coverImageFile);
         Task Update(Book book, IFormFile newImage);

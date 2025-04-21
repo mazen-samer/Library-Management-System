@@ -63,9 +63,17 @@ namespace Library_Management_System.Services
         }
 
 
-        public Task<IEnumerable<Book>> GetAllAsync()
+        public async Task<IEnumerable<Book>> GetAllAsync(string? authorName, string? categoryName)
         {
-            return repo.GetAllAsync();
+            var books = await repo.GetAllAsync();
+
+            if (!string.IsNullOrEmpty(authorName))
+                books = books.Where(b => b.Author.Name.Equals(authorName, StringComparison.OrdinalIgnoreCase));
+
+            if (!string.IsNullOrEmpty(categoryName))
+                books = books.Where(b => b.Category.Name.Equals(categoryName, StringComparison.OrdinalIgnoreCase));
+
+            return books;
         }
 
         public Task<Book?> GetByIdAsync(int id)

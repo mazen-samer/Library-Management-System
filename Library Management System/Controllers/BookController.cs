@@ -17,9 +17,9 @@ namespace Library_Management_System.Controllers
             authorService = _authorService;
             categoryService = _categoryService;
         }
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string? author, string? category)
         {
-            var books = await bookService.GetAllAsync();
+            var books = await bookService.GetAllAsync(author, category);
             return View(books);
         }
 
