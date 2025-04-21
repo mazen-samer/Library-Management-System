@@ -19,6 +19,8 @@ namespace Library_Management_System.Controllers
         }
         public async Task<IActionResult> Index(string? author, string? category)
         {
+            ViewBag.Authors = await authorService.GetAllAsync();
+            ViewBag.Categories = await categoryService.GetAllAsync();
             var books = await bookService.GetAllAsync(author, category);
             return View(books);
         }

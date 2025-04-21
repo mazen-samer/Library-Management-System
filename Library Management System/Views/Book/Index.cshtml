@@ -1,76 +1,85 @@
 ﻿@model IEnumerable<Library_Management_System.Models.Book>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Books";
+    var categories = ViewBag.Categories as List<Category>;
+    var authors = ViewBag.Authors as List<Author>;
 }
 
-<h1>Index</h1>
+<section class="py-5 my-5">
+    <div class="container">
+        <div class="row">
+            <!-- Sidebar Filters -->
+            <div class="col-md-3">
+                <h5 class="mb-3">Filter by Category</h5>
+                <ul class="list-unstyled">
+                    @foreach (var category in categories)
+                    {
+                        <li>
+                            <a asp-controller="Book"
+                               asp-action="Index"
+                               asp-route-category="@category.Name"
+                               asp-route-author="@Context.Request.Query["author"]"
+                               class="d-block mb-1">
+                                @category.Name
+                            </a>
+                        </li>
+                    }
+                </ul>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Id)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Title)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CoverImagePath)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CategoryId)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.AuthorId)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.TotalCopies)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.AvailableCopies)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Id)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Title)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
-            <td>
-                <img width="200" src="@(item.CoverImagePath ?? "/images/default.png")" alt="@item.Title" />            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CategoryId)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AuthorId)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TotalCopies)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AvailableCopies)
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
-                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+                <h5 class="mt-4 mb-3">Filter by Author</h5>
+                <ul class="list-unstyled">
+                    @foreach (var author in authors)
+                    {
+                        <li>
+                            <a asp-controller="Book"
+                               asp-action="Index"
+                               asp-route-author="@author.Name"
+                               asp-route-category="@Context.Request.Query["category"]"
+                               class="d-block mb-1">
+                                @author.Name
+                            </a>
+                        </li>
+                    }
+                </ul>
+
+                <a asp-controller="Book" asp-action="Index" class="btn btn-outline-secondary mt-3">Clear Filters</a>
+            </div>
+
+
+            <!-- Book Grid -->
+            <div class="col-md-9">
+                <div class="section-header">
+                    <h2 class="section-title">Books</h2>
+                </div>
+
+                <div class="row">
+                    @foreach (var item in Model)
+                    {
+                        <div class="col-md-4 mb-4">
+                            <div class="product-item">
+                                <figure class="product-style">
+                                    <img src="@(item.CoverImagePath ?? "/images/default.png")" alt="@item.Title" class="img-fluid product-item" />
+                                    <a href="@Url.Action("Details", new { id = item.Id })" class="add-to-cart btn btn-sm btn-outline-primary mt-2">View Details</a>
+                                </figure>
+                                <figcaption class="mt-2">
+                                    <h5>@item.Title</h5>
+                                    <span class="text-muted">ID: @item.Id</span><br />
+                                    <span class="text-muted">Category ID: @item.CategoryId</span><br />
+                                    <span class="text-muted">Author ID: @item.AuthorId</span>
+                                    <div class="item-price mt-1">
+                                        Copies: @item.AvailableCopies / @item.TotalCopies
+                                    </div>
+                                    <div class="mt-2">
+                                        @Html.ActionLink("Edit", "Edit", new { id = item.Id }, new { @class = "btn btn-sm btn-secondary" }) |
+                                        @Html.ActionLink("Delete", "Delete", new { id = item.Id }, new { @class = "btn btn-sm btn-danger" })
+                                    </div>
+                                </figcaption>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -5,6 +5,266 @@
       "PackagePath": "staticwebassets\\Library Management System.7bhqr8ce4s.bundle.scp.css"
     },
     {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\css\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\booksaw\\css\\ajax-loader.gif"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\booksaw\\css\\normalize.css"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\css\\vendor.css",
+      "PackagePath": "staticwebassets\\booksaw\\css\\vendor.css"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\icomoon\\Read Me.txt",
+      "PackagePath": "staticwebassets\\booksaw\\icomoon\\Read Me.txt"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\icomoon\\fonts\\icomoon.eot",
+      "PackagePath": "staticwebassets\\booksaw\\icomoon\\fonts\\icomoon.eot"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\icomoon\\fonts\\icomoon.svg",
+      "PackagePath": "staticwebassets\\booksaw\\icomoon\\fonts\\icomoon.svg"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\icomoon\\fonts\\icomoon.ttf",
+      "PackagePath": "staticwebassets\\booksaw\\icomoon\\fonts\\icomoon.ttf"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\icomoon\\fonts\\icomoon.woff",
+      "PackagePath": "staticwebassets\\booksaw\\icomoon\\fonts\\icomoon.woff"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\icomoon\\icomoon.css",
+      "PackagePath": "staticwebassets\\booksaw\\icomoon\\icomoon.css"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\icomoon\\selection.json",
+      "PackagePath": "staticwebassets\\booksaw\\icomoon\\selection.json"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\app-store.jpg",
+      "PackagePath": "staticwebassets\\booksaw\\images\\app-store.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\chocolat\\close.png",
+      "PackagePath": "staticwebassets\\booksaw\\images\\chocolat\\close.png"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\chocolat\\fullscreen-black.png",
+      "PackagePath": "staticwebassets\\booksaw\\images\\chocolat\\fullscreen-black.png"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\chocolat\\fullscreen.png",
+      "PackagePath": "staticwebassets\\booksaw\\images\\chocolat\\fullscreen.png"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\chocolat\\left.png",
+      "PackagePath": "staticwebassets\\booksaw\\images\\chocolat\\left.png"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\chocolat\\loader.gif",
+      "PackagePath": "staticwebassets\\booksaw\\images\\chocolat\\loader.gif"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\chocolat\\right.png",
+      "PackagePath": "staticwebassets\\booksaw\\images\\chocolat\\right.png"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\client-image1.png",
+      "PackagePath": "staticwebassets\\booksaw\\images\\client-image1.png"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\client-image2.png",
+      "PackagePath": "staticwebassets\\booksaw\\images\\client-image2.png"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\client-image3.png",
+      "PackagePath": "staticwebassets\\booksaw\\images\\client-image3.png"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\client-image4.png",
+      "PackagePath": "staticwebassets\\booksaw\\images\\client-image4.png"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\client-image5.png",
+      "PackagePath": "staticwebassets\\booksaw\\images\\client-image5.png"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\curly-divider.svg",
+      "PackagePath": "staticwebassets\\booksaw\\images\\curly-divider.svg"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\default.png",
+      "PackagePath": "staticwebassets\\booksaw\\images\\default.png"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\device.png",
+      "PackagePath": "staticwebassets\\booksaw\\images\\device.png"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\google-play.jpg",
+      "PackagePath": "staticwebassets\\booksaw\\images\\google-play.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\item.png",
+      "PackagePath": "staticwebassets\\booksaw\\images\\item.png"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\item1.png",
+      "PackagePath": "staticwebassets\\booksaw\\images\\item1.png"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\item3.png",
+      "PackagePath": "staticwebassets\\booksaw\\images\\item3.png"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\item4.png",
+      "PackagePath": "staticwebassets\\booksaw\\images\\item4.png"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\item5.png",
+      "PackagePath": "staticwebassets\\booksaw\\images\\item5.png"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\leaf.png",
+      "PackagePath": "staticwebassets\\booksaw\\images\\leaf.png"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\main-banner1.jpg",
+      "PackagePath": "staticwebassets\\booksaw\\images\\main-banner1.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\main-banner2.jpg",
+      "PackagePath": "staticwebassets\\booksaw\\images\\main-banner2.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\main-logo.png",
+      "PackagePath": "staticwebassets\\booksaw\\images\\main-logo.png"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\ns-arrow-right.svg",
+      "PackagePath": "staticwebassets\\booksaw\\images\\ns-arrow-right.svg"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\pattern1.png",
+      "PackagePath": "staticwebassets\\booksaw\\images\\pattern1.png"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\pattern2.png",
+      "PackagePath": "staticwebassets\\booksaw\\images\\pattern2.png"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\post-img1.jpg",
+      "PackagePath": "staticwebassets\\booksaw\\images\\post-img1.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\post-img2.jpg",
+      "PackagePath": "staticwebassets\\booksaw\\images\\post-img2.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\post-img3.jpg",
+      "PackagePath": "staticwebassets\\booksaw\\images\\post-img3.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\product-item1.jpg",
+      "PackagePath": "staticwebassets\\booksaw\\images\\product-item1.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\product-item2.jpg",
+      "PackagePath": "staticwebassets\\booksaw\\images\\product-item2.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\product-item3.jpg",
+      "PackagePath": "staticwebassets\\booksaw\\images\\product-item3.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\product-item4.jpg",
+      "PackagePath": "staticwebassets\\booksaw\\images\\product-item4.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\product-item5.jpg",
+      "PackagePath": "staticwebassets\\booksaw\\images\\product-item5.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\product-item6.jpg",
+      "PackagePath": "staticwebassets\\booksaw\\images\\product-item6.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\product-item7.jpg",
+      "PackagePath": "staticwebassets\\booksaw\\images\\product-item7.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\product-item8.jpg",
+      "PackagePath": "staticwebassets\\booksaw\\images\\product-item8.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\single-image.jpg",
+      "PackagePath": "staticwebassets\\booksaw\\images\\single-image.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\tab-item1.jpg",
+      "PackagePath": "staticwebassets\\booksaw\\images\\tab-item1.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\tab-item2.jpg",
+      "PackagePath": "staticwebassets\\booksaw\\images\\tab-item2.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\tab-item3.jpg",
+      "PackagePath": "staticwebassets\\booksaw\\images\\tab-item3.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\tab-item4.jpg",
+      "PackagePath": "staticwebassets\\booksaw\\images\\tab-item4.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\tab-item5.jpg",
+      "PackagePath": "staticwebassets\\booksaw\\images\\tab-item5.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\tab-item6.jpg",
+      "PackagePath": "staticwebassets\\booksaw\\images\\tab-item6.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\tab-item7.jpg",
+      "PackagePath": "staticwebassets\\booksaw\\images\\tab-item7.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\images\\tab-item8.jpg",
+      "PackagePath": "staticwebassets\\booksaw\\images\\tab-item8.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\js\\jquery-1.11.0.min.js",
+      "PackagePath": "staticwebassets\\booksaw\\js\\jquery-1.11.0.min.js"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\js\\modernizr.js",
+      "PackagePath": "staticwebassets\\booksaw\\js\\modernizr.js"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\booksaw\\js\\plugins.js"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\js\\script.js",
+      "PackagePath": "staticwebassets\\booksaw\\js\\script.js"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\js\\slideNav.js",
+      "PackagePath": "staticwebassets\\booksaw\\js\\slideNav.js"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\js\\slideNav.min.js",
+      "PackagePath": "staticwebassets\\booksaw\\js\\slideNav.min.js"
+    },
+    {
+      "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\style.css",
+      "PackagePath": "staticwebassets\\booksaw\\style.css"
+    },
+    {
       "Id": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
