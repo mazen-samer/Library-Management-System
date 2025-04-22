@@ -58,23 +58,28 @@
                     {
                         <div class="col-md-4 mb-4">
                             <div class="product-item">
-                                <figure class="product-style">
-                                    <img src="@(item.CoverImagePath ?? "/images/default.png")" alt="@item.Title" class="img-fluid product-item" />
-                                    <a href="@Url.Action("Details", new { id = item.Id })" class="add-to-cart btn btn-sm btn-outline-primary mt-2">View Details</a>
-                                </figure>
-                                <figcaption class="mt-2">
-                                    <h5>@item.Title</h5>
-                                    <span class="text-muted">ID: @item.Id</span><br />
-                                    <span class="text-muted">Category ID: @item.CategoryId</span><br />
-                                    <span class="text-muted">Author ID: @item.AuthorId</span>
-                                    <div class="item-price mt-1">
-                                        Copies: @item.AvailableCopies / @item.TotalCopies
-                                    </div>
-                                    <div class="mt-2">
-                                        @Html.ActionLink("Edit", "Edit", new { id = item.Id }, new { @class = "btn btn-sm btn-secondary" }) |
-                                        @Html.ActionLink("Delete", "Delete", new { id = item.Id }, new { @class = "btn btn-sm btn-danger" })
-                                    </div>
-                                </figcaption>
+                                <a href="@Url.Action("Details", new { id = item.Id })" class="product-link">
+                                    <figure class="product-style overflow-hidden">
+                                        <!-- Added overflow-hidden -->
+                                        <img src="@(item.CoverImagePath ?? "/images/default.png")" alt="@item.Title"
+                                             class="img-fluid product-item hover-zoom" /> <!-- Added hover-zoom class -->
+                                    </figure>
+                                    <!-- Rest of your content remains the same -->
+                                    <figcaption class="mt-2">
+                                        <h5>@item.Title</h5>
+                                        <span class="text-muted">ID: @item.Id</span><br />
+                                        <span class="text-muted">Category ID: @item.CategoryId</span><br />
+                                        <span class="text-muted">Author ID: @item.AuthorId</span>
+                                        <span class="text-muted">Status: @(item.AvailableCopies > 0 ? "Available" : "Not Available")</span>
+                                        <div class="item-price mt-1">
+                                            Copies: @item.AvailableCopies / @item.TotalCopies
+                                        </div>
+                                    </figcaption>
+                                </a>
+                                <div class="mt-2">
+                                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }, new { @class = "btn btn-sm btn-secondary" })
+                                    @Html.ActionLink("Delete", "Delete", new { id = item.Id }, new { @class = "btn btn-sm btn-danger" })
+                                </div>
                             </div>
                         </div>
                     }

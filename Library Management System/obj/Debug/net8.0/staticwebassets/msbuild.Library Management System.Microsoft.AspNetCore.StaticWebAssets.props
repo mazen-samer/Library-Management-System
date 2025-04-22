@@ -1164,8 +1164,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>5gzk6rvmgg</Fingerprint>
-      <Integrity>dXJ01T/eqwN+r8KuMfJRc4Jn5ekPKDMeYtw12b1XILo=</Integrity>
+      <Fingerprint>j01zmby8gn</Fingerprint>
+      <Integrity>4/F/HO55DAsKz4r6Gr7XrMEp5+K+uLcdJXmwVIDkg2o=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\booksaw\style.css'))</OriginalItemSpec>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "270sCM/Fqxc+7Q4B6SbjoNcZKtb0OnOA/wiLRfdnN10=",
+  "Hash": "h/R4h9N6Tlu19v9U7VUtWDwNJ0eJ9B0d/DZxcKkMYu0=",
   "Source": "Library Management System",
   "BasePath": "_content/Library Management System",
   "Mode": "Default",
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5gzk6rvmgg",
-      "Integrity": "dXJ01T/eqwN+r8KuMfJRc4Jn5ekPKDMeYtw12b1XILo=",
+      "Fingerprint": "j01zmby8gn",
+      "Integrity": "4/F/HO55DAsKz4r6Gr7XrMEp5+K+uLcdJXmwVIDkg2o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\booksaw\\style.css"
@@ -7955,51 +7955,6 @@
       ]
     },
     {
-      "Route": "booksaw/style.5gzk6rvmgg.css",
-      "AssetFile": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\style.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "45109"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"dXJ01T/eqwN+r8KuMfJRc4Jn5ekPKDMeYtw12b1XILo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 19:51:03 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "5gzk6rvmgg"
-        },
-        {
-          "Name": "label",
-          "Value": "booksaw/style.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-dXJ01T/eqwN+r8KuMfJRc4Jn5ekPKDMeYtw12b1XILo="
-        }
-      ]
-    },
-    {
       "Route": "booksaw/style.css",
       "AssetFile": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\style.css",
       "Selectors": [],
@@ -8010,7 +7965,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "45109"
+          "Value": "45299"
         },
         {
           "Name": "Content-Type",
@@ -8018,11 +7973,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dXJ01T/eqwN+r8KuMfJRc4Jn5ekPKDMeYtw12b1XILo=\""
+          "Value": "\"4/F/HO55DAsKz4r6Gr7XrMEp5+K+uLcdJXmwVIDkg2o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 19:51:03 GMT"
+          "Value": "Tue, 22 Apr 2025 16:03:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8032,7 +7987,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dXJ01T/eqwN+r8KuMfJRc4Jn5ekPKDMeYtw12b1XILo="
+          "Value": "sha256-4/F/HO55DAsKz4r6Gr7XrMEp5+K+uLcdJXmwVIDkg2o="
+        }
+      ]
+    },
+    {
+      "Route": "booksaw/style.j01zmby8gn.css",
+      "AssetFile": "E:\\ITI\\MVC\\Library Management System\\Library Management System\\wwwroot\\booksaw\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45299"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4/F/HO55DAsKz4r6Gr7XrMEp5+K+uLcdJXmwVIDkg2o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 16:03:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j01zmby8gn"
+        },
+        {
+          "Name": "label",
+          "Value": "booksaw/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4/F/HO55DAsKz4r6Gr7XrMEp5+K+uLcdJXmwVIDkg2o="
         }
       ]
     },

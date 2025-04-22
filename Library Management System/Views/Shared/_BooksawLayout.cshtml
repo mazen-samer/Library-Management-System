@@ -52,12 +52,12 @@
 							<a href="#" class="user-account for-buy">
 								<i class="icon icon-user"></i><span>Account</span>
 							</a>
-							<a href="#" class="cart for-buy">
-								<i class="icon icon-clipboard"></i><span>
-									Cart:(0
-									$)
-								</span>
-							</a>
+							@* <a href="#" class="cart for-buy"> *@
+							@* 	<i class="icon icon-clipboard"></i><span> *@
+							@* 		Cart:(0 *@
+							@* 		$) *@
+							@* 	</span> *@
+							@* </a> *@
 
 							<div class="action-menu">
 
@@ -85,7 +85,7 @@
 
 					<div class="col-md-2">
 						<div class="main-logo">
-							<a href="index.html"><img src="images/main-logo.png" alt="logo"></a>
+							<a href="index.html"><img src="~/booksaw/images/main-logo.png" alt="logo"></a>
 						</div>
 
 					</div>
@@ -95,28 +95,34 @@
 						<nav id="navbar">
 							<div class="main-menu stellarnav">
 								<ul class="menu-list">
-									<li class="menu-item active"><a href="#home">Home</a></li>
+									<li class="menu-item active"><a asp-controller="Home" asp-action="Index">Home</a></li>
 									<li class="menu-item has-sub">
-										<a href="#pages" class="nav-link">Pages</a>
+										<a asp-controller="Book" asp-action="Index">Books</a>
 
 										<ul>
-											<li class="active"><a href="index.html">Home</a></li>
-											<li><a href="index.html">About</a></li>
-											<li><a href="index.html">Styles</a></li>
-											<li><a href="index.html">Blog</a></li>
-											<li><a href="index.html">Post Single</a></li>
-											<li><a href="index.html">Our Store</a></li>
-											<li><a href="index.html">Product Single</a></li>
-											<li><a href="index.html">Contact</a></li>
-											<li><a href="index.html">Thank You</a></li>
+											@* <li class="active"><a href="index.html">Home</a></li> *@
+											<li class="has-sub">
+												<a href="">Categories</a>
+												@await Component.InvokeAsync("Categories")
+											</li>
+											<li class="has-sub">
+												<a href="">Authors</a>
+												@await Component.InvokeAsync("Authors")
+											</li>
+											@* <li><a href="index.html">Blog</a></li> *@
+											@* <li><a href="index.html">Post Single</a></li> *@
+											@* <li><a href="index.html">Our Store</a></li> *@
+											@* <li><a href="index.html">Product Single</a></li> *@
+											@* <li><a href="index.html">Contact</a></li> *@
+											@* <li><a href="index.html">Thank You</a></li> *@
 										</ul>
 
 									</li>
 									<li class="menu-item"><a href="#featured-books" class="nav-link">Featured</a></li>
-									<li class="menu-item"><a href="#popular-books" class="nav-link">Popular</a></li>
-									<li class="menu-item"><a href="#special-offer" class="nav-link">Offer</a></li>
-									<li class="menu-item"><a href="#latest-blog" class="nav-link">Articles</a></li>
-									<li class="menu-item"><a href="#download-app" class="nav-link">Download App</a></li>
+									<li class="menu-item"><a asp-controller ="Category" asp-action="Index" class="nav-link">Categories</a></li>
+									<li class="menu-item"><a asp-controller="Author" asp-action="Index" class="nav-link">Authors</a></li>
+									@* <li class="menu-item"><a href="#latest-blog" class="nav-link">Articles</a></li> *@
+									@* <li class="menu-item"><a href="#download-app" class="nav-link">Download App</a></li> *@
 								</ul>
 
 								<div class="hamburger">
@@ -147,7 +153,7 @@
 
 					<div class="footer-item">
 						<div class="company-brand">
-							<img src="images/main-logo.png" alt="logo" class="footer-logo">
+							<img src="~/booksaw/images/main-logo.png" alt="logo" class="footer-logo">
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis sed ptibus liberolectus
 								nonet psryroin. Amet sed lorem posuere sit iaculis amet, ac urna. Adipiscing fames

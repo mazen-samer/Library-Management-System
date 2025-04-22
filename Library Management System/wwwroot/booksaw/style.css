@@ -875,7 +875,19 @@ button {
   -ms-user-select: none;
   user-select: none;
 }
+/* Hover zoom effect */
+.hover-zoom {
+    transition: transform .3s;
+}
 
+    .hover-zoom:hover {
+        transform: scale(1.05);
+    }
+
+/* Ensure the container hides overflow */
+.product-style {
+    overflow: hidden;
+}
 .btn:hover,
 .btn:focus,
 input[type="button"]:focus,
@@ -1612,8 +1624,7 @@ button {
   width: 50px;
 }
 
-.section-header .section-title:before,
-.section-header .section-title:after {
+.section-header .section-title:before {
   content: "";
   border-bottom: 1px solid #E0E0E0;
   position: absolute;

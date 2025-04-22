@@ -1,0 +1,8 @@
+﻿@model List<Category>
+
+<ul>
+    @foreach (var category in Model)
+    {
+        <li><a asp-controller="Book" asp-action="Index" asp-route-category="@category.Name">@category.Name</a></li>
+    }
+</ul>

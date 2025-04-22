@@ -1,10 +1,8 @@
 using Library_Management_System.Data;
-using Library_Management_System.Models;
 using Library_Management_System.Repositories;
 using Library_Management_System.Repositories.Interfaces;
 using Library_Management_System.Services;
 using Library_Management_System.Services.Interfaces;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 namespace Library_Management_System
 {
@@ -20,9 +18,6 @@ namespace Library_Management_System
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("con")).UseLazyLoadingProxies());
 
-            builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
-                .AddEntityFrameworkStores<ApplicationDbContext>()
-                .AddDefaultTokenProviders();
 
             builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
             builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();

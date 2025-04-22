@@ -1,0 +1,8 @@
+﻿@model List<Author>
+
+<ul>
+    @foreach (var author in Model)
+    {
+        <li><a asp-controller="Book" asp-action="Index" asp-route-author="@author.Name">@author.Name</a></li>
+    }
+</ul>

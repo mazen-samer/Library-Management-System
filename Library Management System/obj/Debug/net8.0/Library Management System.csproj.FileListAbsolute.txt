@@ -306,9 +306,6 @@ E:\ITI\MVC\Library Management System\Library Management System\bin\Debug\net8.0\
 E:\ITI\MVC\Library Management System\Library Management System\bin\Debug\net8.0\Azure.Identity.dll
 E:\ITI\MVC\Library Management System\Library Management System\bin\Debug\net8.0\Castle.Core.dll
 E:\ITI\MVC\Library Management System\Library Management System\bin\Debug\net8.0\Humanizer.dll
-E:\ITI\MVC\Library Management System\Library Management System\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-E:\ITI\MVC\Library Management System\Library Management System\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-E:\ITI\MVC\Library Management System\Library Management System\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 E:\ITI\MVC\Library Management System\Library Management System\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
 E:\ITI\MVC\Library Management System\Library Management System\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 E:\ITI\MVC\Library Management System\Library Management System\bin\Debug\net8.0\Microsoft.Build.dll
@@ -341,8 +338,6 @@ E:\ITI\MVC\Library Management System\Library Management System\bin\Debug\net8.0\
 E:\ITI\MVC\Library Management System\Library Management System\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 E:\ITI\MVC\Library Management System\Library Management System\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 E:\ITI\MVC\Library Management System\Library Management System\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-E:\ITI\MVC\Library Management System\Library Management System\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
-E:\ITI\MVC\Library Management System\Library Management System\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 E:\ITI\MVC\Library Management System\Library Management System\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 E:\ITI\MVC\Library Management System\Library Management System\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 E:\ITI\MVC\Library Management System\Library Management System\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
